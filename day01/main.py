@@ -1,6 +1,6 @@
 def part1():
     total = 0
-    with open("data.txt", "r") as f:
+    with open("input.txt", "r") as f:
         lines = f.readlines()
         for line in lines:
             digits = [x for x in line if x.isdigit()]
@@ -21,7 +21,7 @@ def part2():
         "nine": 9,
     }
     total = 0
-    with open("data.txt", "r") as f:
+    with open("input.txt", "r") as f:
         lines = f.readlines()
         for line in lines:
             digits = []
