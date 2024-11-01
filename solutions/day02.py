@@ -1,7 +1,7 @@
 def part1():
     MAX_COLORS = {"red": 12, "green": 13, "blue": 14}
     sum = 0
-    with open("input.txt", "r") as f:
+    with open("inputs/day02.txt", "r") as f:
         lines = f.readlines()
         for line in lines:
             game_is_allowed = True
@@ -19,7 +19,7 @@ def part1():
 
 def part2():
     total = 0
-    with open("input.txt", "r") as f:
+    with open("inputs/day02.txt", "r") as f:
         lines = f.readlines()
         for line in lines:
             _, game_sets = line.strip().split(": ")

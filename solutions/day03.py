@@ -3,7 +3,7 @@ import re
 
 def part1() -> None:
     total = 0
-    with open("input.txt", "r") as f:
+    with open("inputs/day03.txt", "r") as f:
         lines = [line.strip() for line in f.readlines()]
         for line_idx, line in enumerate(lines):
             prev_line = lines[line_idx - 1] if line_idx - 1 >= 0 else None
