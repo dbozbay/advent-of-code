@@ -1,2 +1,7 @@
 inputs/
 tests
+
+
+# Added by cargo
+
+/target
